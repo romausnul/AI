@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Mamon AI</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <title></title>
+  </head>Крестики нолики
+  <body>
+    <main>
+      <h1>Tic Tac Toe</h1>
+      <h3><a href="mamon.host/dev/ai">СКАЧАТЬ ИСХОДНИК</a></h3>
+      <br>
+      <table class="board">
+        <tr>
+          <td>
+              <div id="0" class="square left top">&nbsp;</div>
+          </td>
+          <td>
+              <div id="1" class="square top v-middle">&nbsp;</div>
+          </td>
+          <td>
+              <div id="2" class="square right top">&nbsp;</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <div id="3" class="square left h-middle">&nbsp;</div>
+          </td>
+          <td>
+              <div id="4" class="square v-middle h-middle">&nbsp;</div>
+          </td>
+          <td>
+              <div id="5" class="square right h-middle">&nbsp;</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <div id="6" class="square left bottom">&nbsp;</div>
+          </td>
+          <td>
+              <div id="7" class="square bottom v-middle">&nbsp;</div>
+          </td>
+          <td>
+              <div id="8" class="square right bottom">&nbsp;</div>
+          </td>
+        </tr> 
+       </table>
+       <br>
+       <div id="messageBox">Выбери квадрат!</div>
+       <br>
+       <div class="controls">
+         <button class="button" onclick="resetGame()">Сыграй еще раз</button>&nbsp;
+         <select id="difficulty">
+           <option value="moron" selected >Тупой как Блохина</option>
+           <option value="genius">Гений как Славка</option>
+         </select>
+        </div>
+    </main> 
+   <script src="tic-tac-toe.js"></script>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
