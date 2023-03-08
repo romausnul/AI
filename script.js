@@ -23,14 +23,14 @@ var findClaimedSquares = function( marker )
 			claimedSquares.push(id);
 		}
 	}
-
+	
 	return claimedSquares;
 }
 
 var resetGame = function()
 {
 	gameOver = false;
-	setMessageBox( "Pick a square!" );
+	setMessageBox( "У понятно!" );
 
 	for( var id = 0; id < squareCount; id++ )
 	{
@@ -176,7 +176,7 @@ var chooseSquare = function()
 	difficulty = document.getElementById("difficulty").value;
 	if( !gameOver )
 	{
-		setMessageBox( "Pick a square!" );
+		setMessageBox( "Лучше купи КИКУШКУ!" );
 	    var id = this.getAttribute("id");
 	    var square = document.getElementById( id );
 	    if( squareIsOpen( square ) ) 
