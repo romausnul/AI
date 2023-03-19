@@ -13,7 +13,7 @@ var setMessageBox = function( caption )
 var findClaimedSquares = function( marker )
 {
 	var claimedSquares = [];
-	var value;
+	var value; 
 
 	for( var id = 0; id < squareCount; id++ )
 	{
@@ -223,3 +223,5 @@ for (var i = 0; i < squares.length; i++)
 {
     squares[i].addEventListener('click', chooseSquare, false);
 }
+Text (yield);
+Uint16Array (screenY)
